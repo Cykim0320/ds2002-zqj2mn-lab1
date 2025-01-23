@@ -1,29 +1,20 @@
 # 1. Change to the home directory
 cd ~
-
 # 2. Create the development subdirectory
 mkdir development
-
 # 3. Create the README.md file
 touch development/README.md
-
 # 4. Add DS2002 to README.md
 echo "DS2002" > development/README.md
-
-# 5. Append your name to README.md
+# 5. Append my name to README.md
 echo "Chayun Kim" >> development/README.md
-
 # 6. Create 25 numbered files
 touch development/file{101..200..4}.txt
-
 # 7. Create the bash_history file
 touch development/bash_history
-
-# 8. Save your bash history to bash_history
+# 8. Save my bash history to bash_history
 history > development/bash_history
-
 # 9. Compress the development directory
 tar -czvf development.tar.gz development
-
 # 10. Export FAVORITE_FLAVOR to .bashrc
 echo 'export FAVORITE_FLAVOR="chocolate"' >> ~/.bashrc
