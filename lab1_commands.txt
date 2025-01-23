@@ -18,3 +18,4 @@ history > development/bash_history
 tar -czvf development.tar.gz development
 # 10. Export FAVORITE_FLAVOR to .bashrc
 echo 'export FAVORITE_FLAVOR="chocolate"' >> ~/.bashrc
+# Environment used: GitHub Codespaces
